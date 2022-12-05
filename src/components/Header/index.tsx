@@ -1,3 +1,4 @@
+import { CartIcon } from '../../assets/icons/CartIscon';
 import { Container } from './styles';
 
 type Props = {};
@@ -10,12 +11,7 @@ const Header = (props: Props) => {
           <strong>trybe</strong>shopping
         </span>
       </div>
-      <i
-        className="material-icons"
-        style={{ fontSize: '45px', color: 'white' }}
-      >
-        shopping_cart
-      </i>
+      <CartIcon fill="white" size={58} />
       <div className="container-cartTitle">
         <span className="cart__title">Meu carrinho</span>
       </div>
